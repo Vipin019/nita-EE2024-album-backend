@@ -13,6 +13,7 @@ const app=express()
 app.use(express.json())
 app.use(cors())
 app.use('/app', routsurl)
-app.listen(4000,()=>{
+const port=process.env.PORT ;
+app.listen(port,()=>{
     console.log("server is up ans running")
 });
