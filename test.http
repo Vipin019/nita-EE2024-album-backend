@@ -1,0 +1,8 @@
+POST http://localhost:4000/app/link
+Content-Type: application/json
+
+{
+    "fullName": "Vipin Kumar Patel",
+    "enrollmentNo": "20UEE098",
+    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN7xcNLsQyjRvTvZMbJLa7dflZt8ylEG1Q0w&usqp=CAU"
+}
