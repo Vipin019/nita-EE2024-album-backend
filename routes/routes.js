@@ -5,8 +5,6 @@ const router=express.Router();
 
 router.post('/link',function(req,res){
     const link=new linkTempletCopy({
-        fullName: req.body.fullName,
-        enrollmentNo: req.body.enrollmentNo,
         link: req.body.link,
     });
     link.save()

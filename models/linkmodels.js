@@ -2,14 +2,6 @@ const mongoose=require('mongoose')
 const { models } = require('mongoose')
 
 const linkTemplet=new mongoose.Schema({
-    fullName :{
-        type:String,
-        require:true
-    },
-    enrollmentNo :{
-        type:String,
-        require:true
-    },
     link :{
         type:String,
         require:true
@@ -19,5 +11,5 @@ const linkTemplet=new mongoose.Schema({
         default:Date.now
     }
 })
-
-module.exports=mongoose.model('myTable',linkTemplet)
+                             //table name
+module.exports=mongoose.model('test',linkTemplet)
